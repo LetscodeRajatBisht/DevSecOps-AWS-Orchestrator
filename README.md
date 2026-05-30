@@ -1,7 +1,7 @@
 # DevSecOps-AWS-Orchestrator
 
 ## Project Overview
-This project demonstrates an automated security pipeline built on **AWS**. By architecting a multi-tier environment, I implemented continuous security monitoring, shifting security "left" by integrating automated scanning tools into the development workflow[cite: 6, 8, 9]. 
+This project demonstrates an automated security pipeline built on **AWS**. By architecting a multi-tier environment, I implemented continuous security monitoring, by integrating automated scanning tools into the development workflow. 
 
 Read the full narrative and strategy behind this lab on Medium: [https://medium.com/@rajatbisht1196/security-as-code-how-i-automated-devsecops-and-compliance-workflows-2dac3befb762]
 
@@ -12,7 +12,7 @@ The lab environment consists of two AWS EC2 instances running Ubuntu 22.04:
 * **Connectivity**: Configured via secure SSH keys with automated background service management using `systemd`.
 
 ## Governance & Compliance (GRC) Integration
-Automated scans are mapped to remediation workflows, ensuring vulnerabilities are tracked and addressed[cite: 6, 8, 9].
+Automated scans are mapped to remediation workflows, ensuring vulnerabilities are tracked and addressed.
 
 | Tool | Vulnerability | Severity | Status | Remediation Date |
 | :--- | :--- | :--- | :--- | :--- |
