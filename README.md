@@ -26,3 +26,11 @@ Automated scans are mapped to remediation workflows, ensuring vulnerabilities ar
 * **Cloud:** AWS (EC2, VPC, Security Groups)
 * **Automation:** Bash, systemd, cron
 * **Security Tools:** Snyk (SAST/SCA), OWASP ZAP (DAST), OpenSCAP (Compliance)
+
+
+## Security Hardening & Best Practices
+To ensure the pipeline remained resilient and secure, I implemented:
+* **Principle of Least Privilege:** SSH access was restricted to dedicated keys; AWS Security Groups were hardened to allow ingress only from trusted Orchestrator IPs on necessary ports.
+* **Service Resilience:** Deployed WebGoat and ZAP as `systemd` services to ensure high availability and automatic recovery after system reboots.
+* **Non-Interactive Orchestration:** Automation scripts were designed for headless environments, utilizing API key-based authentication for ZAP and key-based SSH for OpenSCAP.
+* **Log & Data Management:** Implemented structured log rotation to prevent disk saturation a
