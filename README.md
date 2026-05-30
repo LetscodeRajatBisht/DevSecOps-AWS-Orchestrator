@@ -1,11 +1,9 @@
 # DevSecOps-AWS-Orchestrator
 
-# DevSecOps & Compliance Orchestrator
-
 ## Project Overview
 This project demonstrates an automated security pipeline built on **AWS**. By architecting a multi-tier environment, I implemented continuous security monitoring, shifting security "left" by integrating automated scanning tools into the development workflow[cite: 6, 8, 9]. 
 
-Read the full narrative and strategy behind this lab on Medium: [Insert Link to your Medium Article Here]
+Read the full narrative and strategy behind this lab on Medium: [https://medium.com/@rajatbisht1196/security-as-code-how-i-automated-devsecops-and-compliance-workflows-2dac3befb762]
 
 ## AWS Infrastructure
 The lab environment consists of two AWS EC2 instances running Ubuntu 22.04:
